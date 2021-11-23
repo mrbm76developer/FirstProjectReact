@@ -24,7 +24,7 @@ const DUMMY_EXPENSES = [
     },
 ];
 
-function App() {
+const App = () => {
     const [expenses, setExpenses] = useState(DUMMY_EXPENSES);
 
     const addExpenseData = (expense) => {
@@ -40,6 +40,6 @@ function App() {
             />
         </div>
     );
-}
+};
 
 export default App;
